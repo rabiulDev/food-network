@@ -17,12 +17,12 @@
     <nav>
         <div class="navbar container">
             <div class="logo">
-                <img src="images/logo/logo.jpg" alt="food-network-logo">
+                <a href="#home"><img src="images/logo/logo.jpg" alt="food-network-logo"></a>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="">Recipies</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -32,19 +32,39 @@
             </div>
         </div>
     </nav>
-    <section class="top-baner container">
+    <section id="home" class="top-baner container">
         <div class="half-width top-baner-content">
             <h1> <span id="orange"> Skip </span>The Diet, <br> Just Eat Healthy <br> With Food Network</h1>
 
             <p>Imagine you don't need a diet because we provide <br> healthy and delicious food for you!</p>
-            <div class="order-btn">
+            <div class="btn">
                 <a href="https://github.com/rabiulDev" target="_blank">Order Food</a>
             </div>
         </div>
         <div class="half-width">
-            <img src="images/female/topbaner-image.png" alt="top-baner-image">
+            <img class="top-baner-image" src="images/female/topbaner-image.png" alt="top-baner-image">
         </div>
 
+    </section>
+    <section class="about-section" id="about">
+        <div class="container flex">
+            <div class="half-width">
+                <img class="about-person-image" src="images/female/person-image.png" alt="person-image">
+            </div>
+            <div class="half-width about-content">
+                <h1>About Me</h1>
+                <p>Chef’s Pencil features content for all levels of cooks and foodies. Our recipes and how-to
+                    guides are
+                    provided by some of the best chefs in the world. You can take these recipes through your
+                    culinary
+                    lifetime.
+                </p>
+                <div class="btn" id="contact-btn">
+                    <a href="https://github.com/rabiulDev" target="_blank">Contact Me</a>
+                </div>
+
+            </div>
+        </div>
     </section>
 </body>
 
