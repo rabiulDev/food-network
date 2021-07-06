@@ -37,7 +37,7 @@ nav {
   display: flex;
   list-style-type: none;
 }
-.menu ul a {
+.menu ul li a {
   text-decoration: none;
   margin-left: 90px;
   color: #575757;
@@ -100,6 +100,7 @@ nav {
 }
 /* top banner end  */
 
+/* about section start  */
 .about-section {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
@@ -133,3 +134,57 @@ nav {
 #contact-btn {
   margin-top: 100px;
 }
+/* about section end  */
+
+/* recipies section start  */
+.recipies-section {
+  margin-top: 85px;
+}
+.recipies-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #575757;
+}
+
+.recipies-header p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #828282;
+  text-align: center;
+  width: 706px;
+  margin: 40px auto;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 377px;
+  height: 528px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+.card-image img {
+  width: 337px;
+  height: 256px;
+  border-radius: 20px;
+}
+.card h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 45px;
+  color: #575757;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #828282;
+  line-height: 32px;
+  margin-top: 20px;
+}
+/* recipies section end  */
